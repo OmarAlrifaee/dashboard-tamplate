@@ -62,6 +62,11 @@ a {
 .menu:hover {
   width: 15%;
 }
+@media screen and (max-width: 767px) {
+  .menu:hover {
+    width: 56px;
+  }
+}
 .menu h1 {
   font-size: 20px;
   text-transform: capitalize;
